@@ -1,4 +1,5 @@
 # zynq_dts_uboot
+```plaintext
 repositorio con dts de placas para uboot
 para usar los dts
 dejar el dts en la ruta: u-boot-xlnx/arch/arm/dts/$(board-name).dts
@@ -8,3 +9,4 @@ source /tools/Xilinx/Vivado/2022.2/settings64.sh
 export DEVICE_TREE=$(board-name)
 make xilinx_zynq_virt_defconfig
 make -j $(nproc)
+```
